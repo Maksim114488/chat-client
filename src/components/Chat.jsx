@@ -6,7 +6,7 @@ import styles from '../styles/Chat.module.css';
 import icon from '../images/emoji.svg';
 import Messages from './Messages';
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://chat-nu9b.onrender.com");
 
 const Chat = () => {
   const [state, setState] = useState([]);
